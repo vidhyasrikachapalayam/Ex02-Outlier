@@ -43,11 +43,11 @@ Check if the outliersare removed from data set using graphical methods.
 ##Step 8
 Save the final data set into the file.
 
-Program:
-1) & (2) Examine price_per_sqft column and use IQR to remove outliers and create new dataframe.
-Program developed by :
+##Program:
+##1) & (2) Examine price_per_sqft column and use IQR to remove outliers and create new dataframe.
+Program developed by :Vidhyasri.k
 
-Register number : 212222230
+Register number : 212222230170
 
 import pandas as pd
 
@@ -91,7 +91,7 @@ df1.shape
 
 sns.boxplot(x="price_per_sqft",data=df1)
 
-(3)Examine price_per_sqft column and use zscore of 3 to remove outliers.
+##(3)Examine price_per_sqft column and use zscore of 3 to remove outliers.
 from scipy import stats
 
 z = np.abs(stats.zscore(df['price_per_sqft']))
@@ -104,7 +104,7 @@ print(df2.shape)
 
 sns.boxplot(x="price_per_sqft",data=df2)
 
-(4)(i) For the data set height_weight.csv detect weight outliers using IQR method.
+##(4)(i) For the data set height_weight.csv detect weight outliers using IQR method.
 import pandas as pd
 
 import numpy as np
@@ -141,7 +141,7 @@ df1.shape
 
 sns.boxplot(x="weight",data=df1)
 
-(4)(ii) For the data set height_weight.csv detect height outliers using IQR method.
+##(4)(ii) For the data set height_weight.csv detect height outliers using IQR method.
 sns.boxplot(x="height",data=df)
 
 q1 = df['height'].quantile(0.25)
@@ -163,3 +163,60 @@ df2
 df2.shape
 
 sns.boxplot(x="height",data=df2)
+
+##Output:
+
+##(1)(2) Examine price_per_sqft column and use IQR to remove outliers and create new dataframe.
+
+##Dataset:
+
+##Dataset Head :
+
+##Dataset Info :
+
+
+##Dataset Describe:
+
+##Null Values:
+
+##Dataset Shape:
+
+##Box plot of price_per_sqft column with outliers:
+
+##price_per_sqft - Dataset after removing outliers:
+
+##price_per_sqft - Shape of Dataset after removing outliers :
+
+##Box Plot of price_per_sqft column without outliers:
+
+##(3) Examine price_per_sqft column and use zscore of 3 to remove outliers.
+
+##Dataset after removal of outlier using z score:
+
+##Shape of Dataset after removal of outlier using z score:
+
+##(4) For the data set height_weight.csv detect weight and height outliers using IQR method:
+
+##Dataset:
+
+##Dataset Head:
+
+##Dataset Info:
+
+##Dataset Describe:
+
+##Null Values:
+
+##Dataset Shape:
+
+##Weight - With outliers:
+
+##Weight - Dataset after removing Outliers using IQR method:
+
+##Weight - Shape of Dataset after removing Outliers using IQR method:
+
+##Weight - Without Outliers using IQR method:
+
+##Height - With outliers:
+
+
