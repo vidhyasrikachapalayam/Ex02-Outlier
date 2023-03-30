@@ -199,6 +199,7 @@ file:///home/sec/Pictures/Screenshots/Screenshot%20from%202023-03-30%2011-19-25.
 ##(4) For the data set height_weight.csv detect weight and height outliers using IQR method:
 
 ##Dataset:
+![screenshot](file:///home/sec/Pictures/Screenshots/Screenshot%20from%202023-03-30%2011-19-25.png)
 
 ##Dataset Head:
 
