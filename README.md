@@ -287,3 +287,5 @@ Height - shape of dataset  after removing outliers using IQR method:
 
 Height - without outliers using IQR method:
 ![Screenshot from 2023-03-31 19-44-21](https://user-images.githubusercontent.com/119477817/229145105-39d94eca-f85e-4d50-9d2b-ba1ab18c8666.png)
+##Result:
+Thus the outliers are detected and removed in the given file and the final data set is saved into the file.
