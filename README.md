@@ -14,12 +14,13 @@ You are given bhp.csv which contains property prices in the city of banglore, In
 
     (ii) Using IQR, detect height outliers and print them
 
-##Aim:
+Aim:
 TO detect and remove the outliers in the given data set and save the final data.
 
-##Algorithm:
+Algorithm:
 
-##Step 1
+Step 1
+
 Import the required packages(pandas,numpy,scipy)
 
 ##Step 2
@@ -28,23 +29,30 @@ Read the given csv file
 ##Step 3
 Convert the file into a dataframe and get information of the data.
 
-##Step 4
+Step 4
+
 Remove the non numerical data columns using drop() method.
 
-##Step 5
+Step 5
+
 Detect the outliers in the data set using z scores method.
 
-##Step 6
+
+Step 6
+
 Remove the outliers by z scores and list manupilation or by using Interquartile Range(IQR)
 
-##Step 7
+Step 7
+
 Check if the outliersare removed from data set using graphical methods.
 
-##Step 8
+Step 8
+
 Save the final data set into the file.
 
 ##Program:
-##1) & (2) Examine price_per_sqft column and use IQR to remove outliers and create new dataframe.
+1) & (2) Examine price_per_sqft column and use IQR to remove outliers and create new dataframe.
+
 Program developed by :Vidhyasri.k
 
 Register number : 212222230170
@@ -91,7 +99,7 @@ df1.shape
 
 sns.boxplot(x="price_per_sqft",data=df1)
 
-##(3)Examine price_per_sqft column and use zscore of 3 to remove outliers.
+(3)Examine price_per_sqft column and use zscore of 3 to remove outliers.
 from scipy import stats
 
 z = np.abs(stats.zscore(df['price_per_sqft']))
@@ -104,7 +112,7 @@ print(df2.shape)
 
 sns.boxplot(x="price_per_sqft",data=df2)
 
-##(4)(i) For the data set height_weight.csv detect weight outliers using IQR method.
+(4)(i) For the data set height_weight.csv detect weight outliers using IQR method.
 import pandas as pd
 
 import numpy as np
@@ -141,7 +149,7 @@ df1.shape
 
 sns.boxplot(x="weight",data=df1)
 
-##(4)(ii) For the data set height_weight.csv detect height outliers using IQR method.
+(4)(ii) For the data set height_weight.csv detect height outliers using IQR method.
 sns.boxplot(x="height",data=df)
 
 q1 = df['height'].quantile(0.25)
@@ -287,5 +295,7 @@ Height - shape of dataset  after removing outliers using IQR method:
 
 Height - without outliers using IQR method:
 ![Screenshot from 2023-03-31 19-44-21](https://user-images.githubusercontent.com/119477817/229145105-39d94eca-f85e-4d50-9d2b-ba1ab18c8666.png)
+
 ##Result:
+
 Thus the outliers are detected and removed in the given file and the final data set is saved into the file.
