@@ -200,13 +200,25 @@ file:///home/sec/Pictures/Screenshots/Screenshot%20from%202023-03-30%2011-19-25.
 
 ##Dataset:
 
+![Screenshot from 2023-03-31 11-11-01](https://user-images.githubusercontent.com/119477817/229032996-c5b07d10-7d9b-4970-9ce6-2abb6f532540.png)
+
 ##Dataset Head:
+
+![Screenshot from 2023-03-31 11-12-24](https://user-images.githubusercontent.com/119477817/229033172-7d4d05d0-6fcd-466a-b310-0f75918720bd.png)
+
 
 ##Dataset Info:
 
+![Screenshot from 2023-03-31 11-13-13](https://user-images.githubusercontent.com/119477817/229033272-32a45d04-6c18-4b88-af54-6d8e9e7ad552.png)
+
+
 ##Dataset Describe:
 
+![image](https://user-images.githubusercontent.com/119477817/229033345-aa3d56cf-2262-4063-a17b-b3a2da0ded13.png)
+
+
 ##Null Values:
+
 
 ##Dataset Shape:
 
