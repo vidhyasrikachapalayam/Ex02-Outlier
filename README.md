@@ -224,7 +224,7 @@ file:///home/sec/Pictures/Screenshots/Screenshot%20from%202023-03-30%2011-19-25.
 
 ![image](https://user-images.githubusercontent.com/119477817/229033345-aa3d56cf-2262-4063-a17b-b3a2da0ded13.png)
 
- wiyh
+ 
 ##Null Values:
 ![Screenshot from 2023-03-31 19-14-21](https://user-images.githubusercontent.com/119477817/229136828-68823307-1667-4090-bcba-628e0db04fc6.png)
 
